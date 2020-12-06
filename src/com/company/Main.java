@@ -11,7 +11,7 @@ import static java.lang.StrictMath.sin;
 
 public class Main extends JFrame {
     // Размеры окна приложения в виде констант
-    private static final int WIDTH = 400;
+    private static final int WIDTH = 800;
     private static final int HEIGHT = 320;
     // Текстовые поля для считывания значений переменных, как компоненты, совместно используемые в различных методах
     private final JTextField textFieldX;
