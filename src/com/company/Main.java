@@ -5,8 +5,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import static java.lang.StrictMath.*;
-import static java.lang.StrictMath.sin;
 @SuppressWarnings("serial")
 
 public class Main extends JFrame {
@@ -35,7 +33,6 @@ public class Main extends JFrame {
         radioButtons.add(button);
         hboxFormulaType.add(button);
     }
-
     // Конструктор класса
     public Main() {
         super("Вычисление формулы");
